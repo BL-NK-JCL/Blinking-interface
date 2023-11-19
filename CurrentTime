@@ -1,0 +1,16 @@
+import threading
+import datetime
+
+hour = ""
+minute = ""
+
+def GetCurrentTime():
+    now=datetime.datetime.now()
+    
+
+    timer= threading.Timer(1, GetCurrentTime)   #1초간격으로 GetCurrentTime함수 호출
+    timer.start()
+    hour=now.hour
+    minute=now.minute
+
+    print("현재시간:",hour,"시",minute,"분")
