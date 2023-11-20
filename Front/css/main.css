@@ -213,3 +213,42 @@
     line-height: normal;
     cursor: pointer;
 }
+
+.show {
+    display: none;
+}
+
+/* 활성화 시 컴포넌트 */
+.process-text {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: #00000080;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.process-end-btn {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    border: none;
+    background-color: #5f95ff;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}

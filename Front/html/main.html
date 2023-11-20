@@ -53,8 +53,43 @@
                 <button class="sec-btn">20초</button>
             </div>
             <div class="level-two">
-                <button class="start-btn">시작하기</button>
+                <button class="start-btn" onclick="startBlueLight()">
+                    시작하기
+                </button>
+            </div>
+
+            <div class="processBluelight show">
+                <div class="process-text">블루라이트가 실행 중입니다.</div>
+                <div class="process-end-btn">
+                    <button class="end-btn" onclick="goBackBlueLightMain()">
+                        종료하기
+                    </button>
+                </div>
             </div>
         </div>
+
+        <script>
+            function startBlueLight() {
+                document
+                    .querySelector('.average-blink-text')
+                    .classList.add('show');
+                document.querySelector('.level-one').classList.add('show');
+                document.querySelector('.level-two').classList.add('show');
+                document
+                    .querySelector('.processBluelight')
+                    .classList.remove('show');
+            }
+
+            function goBackBlueLightMain() {
+                document
+                    .querySelector('.average-blink-text')
+                    .classList.remove('show');
+                document.querySelector('.level-one').classList.remove('show');
+                document.querySelector('.level-two').classList.remove('show');
+                document
+                    .querySelector('.processBluelight')
+                    .classList.add('show');
+            }
+        </script>
     </body>
 </html>
