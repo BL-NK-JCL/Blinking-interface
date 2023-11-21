@@ -1,0 +1,60 @@
+.left-section {
+    width: 23%;
+    height: 100vh; /* 화면 높이 전체를 사용하도록 설정 */
+    float: left;
+    background-color: #5f95ff;
+    box-sizing: border-box;
+}
+
+.service-name {
+    margin-top: 10%;
+    margin-left: 17%;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Auto-Bluelight {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.button_img {
+    width: 10%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.Auto-Bluelight-Button {
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 75%;
+    height: auto;
+    border: none;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #5f95ff;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Alarms {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
